@@ -1,0 +1,13 @@
+.jumbotron {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    background-image:url("../images/BeachBanner4.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+body {background-color: rgb(233, 233, 233);}
+
+nav { 
+    background-color: rgb(201, 198, 198);
+}

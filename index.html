@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inisghts On The Beach</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel = "stylesheet" href="./IOTB/css/style.css">
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-light navbar-expand-lg">
+       <a class="navbar-brand" href="https://github.com/Cthompsonlbi/Team_Red"><u>Back To Github Repository</u></a>
+    </nav>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Insights On The Beach</h1>
+        <p>Improving Business In The Most Spectacular Places</p>
+      </div>
+      <font face = "new times roman"<p><b><u><h4>Poke Around At Your Convenience:</p></b></u></h4></font>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <h5><b>Get To Know The Team:</b></h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Team Member Info:</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <!--<div class="well"></div>-->
+        <h5><b>Insights On The Beach Tableau Link</b></h5>
+        <div class='tableauPlaceholder' id='viz1649176584193' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt='Insights On The Beach ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Insightsonthebeach4_4WebDeploy&#47;Story1&#47;1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='Insightsonthebeach4_4WebDeploy&#47;Story1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Insightsonthebeach4_4WebDeploy&#47;Story1&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+            <param name='filter' value='publish=yes' />
+          </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1649176584193');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='1654px';vizElement.style.height='1196px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+      </div>
+      <div class="col-md-4">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./IOTB/js/charts.js"></script>
+</body>
+</html>
+<!--Added Image To Style.CSS-->
+<!--Changed Font Color in Jumbo-->
+<!--Provide code for shading is Style.CSS for better visibility of text overlayed on image-->
+<!--Bold Titles-->
+<!--change the background color of HTML and Plots to grey to reduce eyestrain from the previously white background page-->
+<!--Added NavBar through HTML that provides a quicklink back to my Github page-->
+<!--Used CSS styling to darken the NavBar slightly to help guide the users eyes-->
+<!--Added Paragraph Tag Below Jumbotron to provide instructions to user-->
